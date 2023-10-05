@@ -1,0 +1,43 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<main class = "container">
+<div class="jumbotron">
+    
+    <h1>Welcome to the <%= title %> Page</h1>
+    <div class="contactPanel">
+        <h2>Contact Information</h2>
+        <div class="contactInfo">
+                <p><strong>Name:</strong> Joshua Morales</p>
+                <p><strong>Email:</strong> jmomorales23@gmail.com</p>
+                <p><strong>Phone:</strong> 905-782-5945</p>
+                <p><strong>Address:</strong> Brampton, Ontario</p>
+        </div>
+    </div>
+    <form action="process_form.php" method="POST" class="contactForm">
+            <h2>Contact Form</h2>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br><br>
+
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40" required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        
+        </form>
+    </div>
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>

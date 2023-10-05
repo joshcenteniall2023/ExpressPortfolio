@@ -1,0 +1,46 @@
+<%- include ('partials/header.ejs') %>
+    <%- include ('partials/main_nav.ejs') %>
+
+        <!--<img src="img/logo.png" alt="logo">-->
+
+        <main class="container">
+            <div class="jumbotron">
+                <h1>Welcome to <%= title %> Page</h1>
+                <h2>Services</h2>
+                <div class="panels">
+                    <div class="servicePanel">
+                        <h2>Web Developer</h2>
+                        <div class="panelInfo">
+                            <img src="img/webCode.jpg" alt="WebDev" class='imgIDE'>
+                        </div>
+                    </div>
+                    <div class="servicePanel">
+                        <h2>C# Programmer</h2>
+                        <div class="panelInfo">
+                            <img src="img/cSharp.png" alt="C#" class='imgIDE'>
+                        </div>
+                    </div>
+                    <div class="servicePanel">
+                        <h2>SQL Developer</h2>
+                        <div class="panelInfo">
+                            <img src="img/oracleSQL.png" alt="SQL" class='imgIDE'>
+                        </div>
+                    </div>
+                </div>
+                <div class="panels">
+                    <div class="servicePanel">
+                        <h2>Python Programmer</h2>
+                        <div class="panelInfo">
+                            <img src="img/python.jpg" alt="Python" class='imgIDE'>
+                        </div>
+                    </div>
+                    <div class="servicePanel">
+                        <h2>Java Programmer</h2>
+                        <div class="panelInfo">
+                            <img src="img/java.png" alt="Java" class='imgIDE'>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <%- include ('partials/bottom_nav.ejs') %>
+            <%- include ('partials/footer.ejs') %>

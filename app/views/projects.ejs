@@ -1,0 +1,31 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+    <!--<img src="img/logo.png" alt="logo">-->
+
+<main class = "container">
+    <div class="jumbotron">
+        <h1>Welcome to <%= title %> Page</h1>
+        <div class="panels">
+                <div class="projectPanel">
+                    <h2>Project 1: Web Dev</h2>
+                    <img src="img/expressP.png" alt="WebDev" class="prImg">
+                    <p>A personal Webpage</p>
+                </div>
+                <div class="projectPanel">
+                    <h2>Project 2: C#</h2>
+                    <img src="img/p2.png" alt="p2" class="prImg">
+                    <p>Learning project for a C# class</p>
+                </div>
+                <div class="projectPanel">
+                    <h2>Project 3: Java</h2>
+                    <img src="img/p3.png" alt="p3" class="prImg">
+                    <p>Developing a game plugin using Java</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>

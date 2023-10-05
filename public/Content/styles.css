@@ -1,0 +1,147 @@
+ul.navbar-max {
+    list-style: none;/* Remove the bullet */
+    display: inline;/* Display the list items inline */
+    float: right;
+    font-size: 20px;
+    color: #ffffff; /* White text color */
+}
+
+ul.navbar-max li {
+    display: inline-block; /* Make the list items display inline */
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer .navbar-text {
+    margin-bottom: 0;
+}
+
+.portrait {
+    display: block;
+    margin-left: auto;/* Center the image */
+    margin-right: auto;
+    width: 550px;
+    height: 700px;
+  }
+
+.logo {
+    width: 150px; 
+    height: 100px;
+  }
+.desc {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+  }
+em{
+    text-decoration: underline;
+}
+.contactPanel {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contactInfo {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.contactForm {
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+label{
+    display: inline-block; /* Make labels inline-block elements */
+    width: 40%; /* Adjust width as needed */
+    text-align: left; /* Right-align labels */
+}
+h2{
+    text-align: center;
+}
+.imgIDE{
+    width: 150px; 
+    height: 150px;
+}
+.panelInfo {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.servicePanel{
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.projectPanel{
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.panels{
+    display: flex; /* Make the panels appear side-by-side */
+  }
+
+  .prImg {
+    width: 150px; 
+    height: 100px;
+  }
